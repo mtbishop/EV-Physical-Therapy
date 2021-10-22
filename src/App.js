@@ -1,9 +1,10 @@
 import './App.css';
+import AdminComp from './components/AdminComp';
 
 function App() {
   return (
     <div className="App">
-      <h1>Enterprise Valley Physical Therapy</h1>
+      <AdminComp />
     </div>
   );
 }
