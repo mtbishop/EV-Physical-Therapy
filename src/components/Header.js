@@ -1,13 +1,17 @@
-import { Container, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import '../style/headerStyle.css';
 
 function Header() {
   return (
     <>
       <Navbar bg="dark">
-        <Container>
-          <Navbar.Brand>Contact #----</Navbar.Brand>
-        </Container>
+        <div id="headerCont">
+          <Container>
+            <span id="contactNum">
+              <Navbar.Brand>Contact #----</Navbar.Brand>
+            </span>
+          </Container>
+        </div>
       </Navbar>
     </>
   );

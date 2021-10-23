@@ -3,3 +3,11 @@ h5 {
   margin-right: 3rem;
   margin-top: 0rem;
 }
+
+#contactNum {
+  margin-left: 85%;
+}
+
+#headerCont {
+  border-bottom: 2px solid black;
+}
