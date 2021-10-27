@@ -10,7 +10,10 @@ function HoursandContact() {
           <Card.Body className="hAndC">660 E Main St</Card.Body>
           <Card.Body className="hAndC">Enterprise, UT 84725</Card.Body>
           <Card.Body className="hAndC">Phone: 435-878-2722</Card.Body>
-          <Card.Body className="hAndC">Email: testemail@mail.com</Card.Body>
+          <Card.Body className="hAndC">Fax: 435-878-2723</Card.Body>
+          <Card.Body className="hAndCa">
+            Email: wb.enterprisept@gmail.com
+          </Card.Body>
         </Card>
 
         <h4>Hours of Operation</h4>

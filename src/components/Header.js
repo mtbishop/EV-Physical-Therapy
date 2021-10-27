@@ -8,7 +8,7 @@ function Header() {
         <div id="headerCont">
           <Container>
             <span id="contactNum">
-              <Navbar.Brand>Contact #----</Navbar.Brand>
+              <Navbar.Brand>Contact # 435-878-2722</Navbar.Brand>
             </span>
           </Container>
         </div>

@@ -1,8 +1,10 @@
 function GMaps() {
   return (
     <>
-      <h1>GMaps Header</h1>
-      <p></p>
+      <div id="gMapsContainter">
+        <h1>GMaps</h1>
+        <p>click here for directions...</p>
+      </div>
     </>
   );
 }
