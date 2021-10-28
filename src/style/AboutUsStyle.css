@@ -1,3 +1,7 @@
+body {
+  background-color: darkgrey;
+}
+
 h3#fromPWC {
   font-style: italic;
 }
@@ -9,4 +13,10 @@ th {
 #sloganText {
   text-align: center;
   margin-left: 45.7rem;
+}
+
+#buildingPic {
+  height: 300px;
+  width: 500px;
+  margin-right: 50%;
 }

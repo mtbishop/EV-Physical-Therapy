@@ -1,5 +1,5 @@
 import '../style/AboutUsStyle.css';
-import BuildingPic from '../img/';
+import BuildingPic from '../img/gmaps_building_shot.PNG';
 
 function AboutUs() {
   return (
@@ -16,7 +16,7 @@ function AboutUs() {
         </tr>
       </div>
       <div>
-        <img alt="building_picture" src="../img/gmaps building shot.png"></img>
+        <img id="buildingPic" alt="building_picture" src={BuildingPic}></img>
       </div>
     </>
   );
