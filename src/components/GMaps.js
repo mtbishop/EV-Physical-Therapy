@@ -1,4 +1,7 @@
-//AIzaSyD8reOmDFA9FKRsCUagUH_gEyCasSsgxUQ
+require('dotenv').config();
+
+const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
+const apiLink = `https://www.google.com/maps/embed/v1/place?key=${REACT_APP_API_KEY}&q=660+E+Main+St,Enterprise+UT`;
 
 function GMaps() {
   return (
@@ -8,8 +11,8 @@ function GMaps() {
           title="GmapFrame"
           id="gMapIFrame"
           loading="lazy"
-          allowfullscreen
-          src="https://www.google.com/maps/embed/v1/place?key=------&q=660+E+Main+St,Enterprise+UT"
+          allowFullScreen
+          src={apiLink}
         ></iframe>
       </div>
     </>
