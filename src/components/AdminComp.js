@@ -1,3 +1,4 @@
+import '../style/AdminComp.css';
 import Header from './Header';
 import AboutUs from './AboutUs';
 import HoursAndContact from './HoursAndContact';
@@ -9,10 +10,12 @@ function AdminComp() {
   return (
     <>
       <Header />
-      <AboutUs />
-      <HoursAndContact />
-      <EmployeeCard />
-      <GMaps />
+      <div id="jumbotron1">
+        <AboutUs />
+        <HoursAndContact />
+        <EmployeeCard />
+        <GMaps />
+      </div>
       <Footer />
     </>
   );
