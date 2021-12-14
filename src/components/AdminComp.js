@@ -1,4 +1,4 @@
-import '../style/AdminComp.css';
+import '../components/assets/style/AdminComp.css';
 import Header from './Header';
 import AboutUs from './AboutUs';
 import HoursAndContact from './HoursAndContact';

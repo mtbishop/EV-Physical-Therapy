@@ -1,5 +1,5 @@
 import { Container, Navbar } from 'react-bootstrap';
-import '../style/HeaderStyle.css';
+import '../components/assets/style/HeaderStyle.css';
 
 function Header() {
   return (

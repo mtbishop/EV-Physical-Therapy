@@ -1,5 +1,5 @@
-import '../style/AboutUsStyle.css';
-import BuildingPic from '../img/gmaps_building_shot.PNG';
+import '../components/assets/style/AboutUsStyle.css';
+import BuildingPic from '../components/assets/img/gmaps_building_shot.PNG';
 
 function AboutUs() {
   return (

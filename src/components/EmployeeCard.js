@@ -1,18 +1,54 @@
 import { Card } from 'react-bootstrap';
+import DefaultUserPic from '../components/assets/img/default-image.jpg';
 
 function EmployeeCard() {
   return (
     <>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <div>
+        <h3 id="providers">Providers</h3>
+        <div className="empCard">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img
+              className="defaultUserPic"
+              variant="top"
+              style={{ height: '10rem', width: '10rem' }}
+              src={DefaultUserPic}
+            />
+            <Card.Body>
+              <Card.Title>Wyatt Banks</Card.Title>
+              <Card.Text>Physical Theripist/Owner</Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="empCard">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img
+              className="defaultUserPic"
+              variant="top"
+              style={{ height: '10rem', width: '10rem' }}
+              src={DefaultUserPic}
+            />
+            <Card.Body>
+              <Card.Title>Misty A Gardener</Card.Title>
+              <Card.Text>PTA</Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="empCard">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img
+              className="defaultUserPic"
+              variant="top"
+              style={{ height: '10rem', width: '10rem' }}
+              src={DefaultUserPic}
+            />
+            <Card.Body>
+              <Card.Title>Shawnise Banks</Card.Title>
+              <Card.Text>LMT, BCTMB</Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
     </>
   );
 }
